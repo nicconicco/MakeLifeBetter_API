@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const admin = require('firebase-admin');
-const serviceAccount = require('./firebase-adminsdk.json');
+const serviceAccount = require('/Users/cgalves/Desktop/my-express-firebase-app/MakeLifeBetter_API/firebase-adminsdk.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
